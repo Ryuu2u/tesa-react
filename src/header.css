@@ -1,0 +1,35 @@
+.site-header{
+  background: #3b291f;
+  padding: 12px 16px;
+  position: sticky;
+  top: 0;
+  z-index: 30;
+}
+
+.header-inner{
+  max-width:1100px;
+  margin:0 auto;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  box-sizing: border-box;
+}
+
+.brand-text .site-title{
+  font-weight:700;
+  color:#ffffff;
+  font-size:1.08rem;
+}
+
+.brand-text .site-sub{
+  font-size:0.82rem;
+  color:#ffffff;
+  margin-top:2px;
+}
+
+.main-nav{ display:flex; gap:14px; align-items:center; }
+.main-nav a{
+  color:#ffffff; text-decoration:none; padding:8px 10px; border-radius:8px; font-weight:600;
+  font-size:0.95rem;
+}

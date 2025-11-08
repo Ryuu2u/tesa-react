@@ -1,0 +1,18 @@
+.cards-wrap {
+  max-width: 1100px;
+  margin: 18px auto;
+  padding: 0 16px 40px;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+  justify-items: center;
+  align-items: start;
+}
+
+.app-header .text-center {
+  text-align: center;
+  margin: 10px 0 6px;
+}

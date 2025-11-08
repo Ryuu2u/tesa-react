@@ -1,0 +1,56 @@
+.app-footer {
+    background: #3b291f;
+    color: #f3f4f6;
+    padding: 28px 16px 12px;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.footer-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 8px 12px;
+}
+
+.brand {
+    min-width: 180px;
+}
+
+.brand-title {
+    margin: 0;
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+.brand-sub {
+    margin: 6px 0 0;
+    color: #cbd5e1;
+    font-size: 0.93rem;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-nav a,
+.footer-social a {
+    color: #cbd5e1;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color .18s ease, transform .12s ease;
+    padding: 6px 4px;
+    border-radius: 6px;
+}
+
+.footer-nav a:hover,
+.footer-social a:hover {
+    transform: translateY(-2px);
+    background: rgba(255, 255, 255, 0.02);
+}
